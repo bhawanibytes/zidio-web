@@ -1,11 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import { Routes, Route, BrowserRouter } from "react-router-dom";
+import Home from './pages/home/index';
+import About from './pages/about/index';
+import Contact from "./pages/contact/index";  // Assuming Contact is a default export
 
 function App() {
   return (
-    <h1 className="text-1xl font-bold underline text-red-500">
-    Hello world!
-  </h1>
+    <BrowserRouter>
+      <Routes>
+        <Route index element={<Home />} />      
+        <Route path="/about" element={<About />} />
+        <Route path="/contact" element={<Contact />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 
