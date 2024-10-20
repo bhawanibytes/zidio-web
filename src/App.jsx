@@ -4,6 +4,7 @@
 import './App.css'
 import AnnouncementBar from './Components/AnnouncementBar'
 import Header from './Components/Header'
+import HeroPoster from './Components/HeroPoster'
 
 function App() {
   // const [count, setCount] = useState(0)
@@ -11,6 +12,7 @@ function App() {
     <>
     <AnnouncementBar />
     <Header />
+    <HeroPoster />
     {/* <h1 className="text-3xl font-bold underline">
       Hello world!
     </h1> */}
