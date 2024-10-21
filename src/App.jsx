@@ -4,6 +4,7 @@ import Footer from './Components/Footer'
 import Header from './Components/Header'
 import Home from './pages/Home'
 import Contact from './Components/Contact'
+import BuildingIt from './pages/BuildingIt'
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Routes>
         <Route index element={<Home/>}/>
         <Route path="contact" element={<Contact/>} />
+        <Route path="*" element={<BuildingIt/>} />
       </Routes>
     <Footer/>
     </BrowserRouter>
