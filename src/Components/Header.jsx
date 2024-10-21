@@ -1,7 +1,7 @@
 // import React from 'react'
 import zidioLogo from '../assets/zidio-logo.png'
 // import './Header.css'
-
+import { Link } from 'react-router-dom'
 const Header = () => {
   return (
     <div className='sticky top-0 bg-white flex justify-around items-center h-28' >
@@ -10,10 +10,10 @@ const Header = () => {
         </div>
         <div className='flex items-center'>
             <ul className='list-none flex'>
-                <li className='mx-5 hover:text-btColor cursor-pointer'>Home</li>
-                <li className='mx-5 hover:text-btColor cursor-pointer'>About</li>
-                <li className='mx-5 hover:text-btColor cursor-pointer'>Services</li>
-                <li className='mx-5 hover:text-btColor cursor-pointer'>Contact</li>
+                <li className='mx-5 hover:text-btColor cursor-pointer'><Link to="/">Home</Link></li>
+                <li className='mx-5 hover:text-btColor cursor-pointer'><Link to="/about">About</Link></li>
+                <li className='mx-5 hover:text-btColor cursor-pointer'><Link to="/services">Services</Link></li>
+                <li className='mx-5 hover:text-btColor cursor-pointer'><Link to="/contact">Contact</Link></li>
             </ul>
             
             <span className='mx-5 cursor-pointer'>🔍</span>
