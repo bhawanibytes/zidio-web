@@ -3,6 +3,7 @@
 // import viteLogo from '/vite.svg'
 import './App.css'
 import AnnouncementBar from './Components/AnnouncementBar'
+import Footer from './Components/Footer'
 import Header from './Components/Header'
 import HeroPoster from './Components/HeroPoster'
 
@@ -13,6 +14,7 @@ function App() {
     <AnnouncementBar />
     <Header />
     <HeroPoster />
+    <Footer/>
     {/* <h1 className="text-3xl font-bold underline">
       Hello world!
     </h1> */}
