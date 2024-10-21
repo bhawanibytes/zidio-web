@@ -4,7 +4,7 @@ import zidioLogo from '../assets/zidio-logo.png'
 
 const Header = () => {
   return (
-    <div className='mx-[10%] flex justify-between items-center h-28' >
+    <div className='sticky top-0 bg-white flex justify-around items-center h-28' >
         <div>
             <img src={zidioLogo} alt="Zidio-logo" className='h-10' />
         </div>
