@@ -9,14 +9,9 @@ const Contact = () => {
       </div>
       
       <section className="py-16 bg-white">
-main
         <div className="container mx-auto grid grid-cols-1 lg:grid-cols-2 gap-8 ml-20">
           <div className="bg-white shadow-lg rounded-lg p-10">
             <h2 className="text-5xl font-bold mb-4">Your Feedback</h2>
-        <div className="container mx-auto flex justify-center items-center">
-          <div className="bg-white shadow-lg rounded-lg p-8">
-            <h2 className="text-2xl font-bold mb-4">Write to Us Anytime</h2>
-main
             <form className="space-y-4">
               <div className="flex gap-4">
                 <input
@@ -53,16 +48,10 @@ main
             </form>
           </div>
 
- main
           <div className="w-2/3 p-16 bg-blue-700 text-white rounded-lg shadow-lg ml-24">
           <h2 className="text-4xl font-bold mb-5 pb-5">Don't Forget to Contact Us</h2>
           <div className="mb-4 flex items-center pb-4">
             <FaPhoneAlt className="text-4xl mr-4" />
-          <div className="w-1/3 p-6 bg-blue-500 text-white rounded-lg shadow-lg ml-6">
-          <h2 className="text-xl font-bold mb-4">Don&apos;t Forget to Contact Us</h2>
-          <div className="mb-4 flex items-center">
-            <FaPhoneAlt className="text-2xl mr-4" />
-    main
             <div>
               <p className='text-2xl'>Call Us</p>
               <p>+91 854 637 9265</p>
