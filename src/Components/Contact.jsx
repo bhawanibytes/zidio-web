@@ -9,7 +9,7 @@ const Contact = () => {
       </div>
       
       <section className="py-16 bg-white">
-        <div className="container mx-auto grid grid-cols-1 lg:grid-cols-2 gap-8">
+        <div className="container mx-auto flex justify-center items-center">
           <div className="bg-white shadow-lg rounded-lg p-8">
             <h2 className="text-2xl font-bold mb-4">Write to Us Anytime</h2>
             <form className="space-y-4">
@@ -49,7 +49,7 @@ const Contact = () => {
           </div>
 
           <div className="w-1/3 p-6 bg-blue-500 text-white rounded-lg shadow-lg ml-6">
-          <h2 className="text-xl font-bold mb-4">Don't Forget to Contact Us</h2>
+          <h2 className="text-xl font-bold mb-4">Don&apos;t Forget to Contact Us</h2>
           <div className="mb-4 flex items-center">
             <FaPhoneAlt className="text-2xl mr-4" />
             <div>
