@@ -2,7 +2,7 @@ import { FaPhoneAlt, FaEnvelope, FaClock } from 'react-icons/fa';
 
 const Contact = () => {
   return (
-    <div className="">
+    <div className="overflow-hidden">
       <div className="relative text-black py-16 text-left font-semibold px-24 bg-cover bg-center min-h-[500px] bg-[url('https://zidio.in/assets/images/about-inner/breadcumb-bg.png')] mt-5">
         <h1 className="text-6xl font-bold text-white font-rajdhani mt-28">Contact Us</h1>
         <p className="mt-5 text-3xl text-white font-rajdhani">Home &gt; Contact Us</p>
